@@ -25,7 +25,7 @@ public class LoginTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.get("https://automationpratice.com.br/login");
+        driver.get("git");
     }
 
     @AfterEach
